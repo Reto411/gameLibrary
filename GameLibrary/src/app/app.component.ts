@@ -1,20 +1,13 @@
 import { Component } from '@angular/core';
-import {GameComponent} from "./game/game.component";
-
-const GAMES: GameComponent = [
-  {},
-  {},
-  {},
-  {},
-];
+import {GameService} from "./game/game.service";
 
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
+  providers: [GameService]
 })
 export class AppComponent {
-  title = 'A list of fantastic games';
-  GameComponents = GAMES;
+
 }
