@@ -1,0 +1,19 @@
+.game-box
+{
+  height: 12vw;
+  background-color: lightgray;
+  /* Radius */
+  -webkit-border-radius:  0.5vw;
+  -moz-border-radius:  0.5vw;
+  border-radius: 0.5vw;
+  border: 1px solid #e9e9e4;
+  /* Box Shadow */
+  -webkit-box-shadow: 10px 11px 32px -4px rgba(0,0,0,0.54);
+  -moz-box-shadow: 10px 11px 32px -4px rgba(0,0,0,0.54);
+  box-shadow: 10px 11px 32px -4px rgba(0,0,0,0.54);
+}
+
+.game-row
+{
+  margin-bottom: 2vh;
+}
