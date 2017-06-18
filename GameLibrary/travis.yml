@@ -9,10 +9,19 @@ branches:
     - master
 
 before_script:
+  - npm install -g firebase-tools
   - npm install -g @angular/cli
 
 script:
   - ng build --prod
+
+env:
+  global:
+    - "FTP_USER=user"
+    - "FTP_PASSWORD=password"
+
+after_success:
+  "curl --ftp-create-dirs -T uploadfilename -u $FTP_USER:$FTP_PASSWORD ftp://m152.gibz-informatik.ch/"
 
 notifications:
   email:
