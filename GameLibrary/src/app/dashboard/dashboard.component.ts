@@ -13,6 +13,6 @@ export class DashboardComponent implements OnInit {
   constructor(private gameService: GameService) { }
 
   ngOnInit(): void {
-    this.gameService.getGames().then(games => this.games = games);
+    this.gameService.getGames().subscribe(games => this.games = games);
   }
 }
