@@ -5,7 +5,11 @@
   },
   {
     "id": 2,
-    "name": "League of Faggots"
+    "name": "League of Faggots",
+    "dashboardPicture": {
+      "path": "assets/games/leagueoflegends/images/PNG_00b235ea_55b4_43db_aad3_75bad274a1f8",
+      "alternativeText": "Hello"
+    }
   },
   {
     "id": 3,

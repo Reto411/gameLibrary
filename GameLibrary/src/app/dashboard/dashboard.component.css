@@ -1,7 +1,10 @@
 .game-box
 {
   height: 12vw;
+
   background-color: lightgray;
+  background-size: cover;
+
   /* Radius */
   -webkit-border-radius:  0.5vw;
   -moz-border-radius:  0.5vw;
@@ -16,4 +19,17 @@
 .game-row
 {
   margin-bottom: 2vh;
+}
+
+.game-box-text-box
+{
+  margin-top: 25%;
+  margin-bottom: 25%;
+  border-radius: 0.5vw;
+  background-color: rgba(255, 255, 255, 0.50);
+}
+
+.game-box-title {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
 }

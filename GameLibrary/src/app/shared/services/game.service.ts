@@ -6,9 +6,6 @@ import {Observable} from "rxjs/Observable";
 import "rxjs/add/operator/map";
 
 
-const STATIC_GAME_LIST_URL = "http://m152.gibz-informatik.ch/sj16_17/infa3a/team02/" + "static.game.data.json";
-
-
 @Injectable()
 export class GameService {
   constructor( private http: Http)
