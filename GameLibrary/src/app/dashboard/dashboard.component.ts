@@ -16,7 +16,7 @@ export class DashboardComponent implements OnInit {
     this.gameService.getGames().then(games => this.games = games);
   }
 
-  dashboardImageForGame(): Image {
-    return this.ima
-  }
+  /*dashboardImageForGame(): Image {
+    return 
+  }*/
 }
