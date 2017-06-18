@@ -15,5 +15,4 @@ export class DashboardComponent implements OnInit {
   ngOnInit(): void {
     this.gameService.getGames().then(games => this.games = games);
   }
-
 }
