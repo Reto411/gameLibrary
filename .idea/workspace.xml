@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ee9bb10-4cb6-4400-a4d1-838737e6557d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/GameLibrary/src/images/League Of Legends_Bloodmoon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/GameLibrary/src/images/League of Legends 06-05-2017 17-31-39-343.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/GameLibrary/src/images/League of Legends 06-07-2017 19-24-07-164.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/GameLibrary/src/images/League of Legends 06.17.2017 - 15.26.38.04.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/GameLibrary/src/images/League of Legends_VictoryScreen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/GameLibrary/src/videos/League of Legends 06-14-2017 21-46-51-913.mp4" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameLibrary/src/app/game/game.model.ts" afterPath="$PROJECT_DIR$/GameLibrary/src/app/game/game.model.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameLibrary/src/app/dashboard/dashboard.component.html" afterPath="$PROJECT_DIR$/GameLibrary/src/app/dashboard/dashboard.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameLibrary/src/app/dashboard/dashboard.component.ts" afterPath="$PROJECT_DIR$/GameLibrary/src/app/dashboard/dashboard.component.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameLibrary/src/app/game/game.service.ts" afterPath="$PROJECT_DIR$/GameLibrary/src/app/game/game.service.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -45,21 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dashboard.component.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GameLibrary/src/app/dashboard/dashboard.component.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="game.model.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GameLibrary/src/app/game/game.model.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="45">
+              <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -80,8 +64,8 @@
       <file leaf-file-name="game.service.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GameLibrary/src/app/game/game.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="133" lean-forward="false" selection-start-line="6" selection-start-column="133" selection-end-line="6" selection-end-column="133" />
+            <state relative-caret-position="165">
+              <caret line="11" column="179" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="179" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -92,8 +76,8 @@
       <file leaf-file-name="dashboard.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GameLibrary/src/app/dashboard/dashboard.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="51" lean-forward="false" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
+            <state relative-caret-position="15">
+              <caret line="1" column="29" lean-forward="false" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -114,8 +98,8 @@
       <file leaf-file-name="dashboard.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GameLibrary/src/app/dashboard/dashboard.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="15" column="65" lean-forward="false" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
+            <state relative-caret-position="270">
+              <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -155,14 +139,14 @@
         <option value="$PROJECT_DIR$/GameLibrary/src/app/app-routing/app-routing.module.ts" />
         <option value="$PROJECT_DIR$/GameLibrary/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/GameLibrary/src/app/app.component.ts" />
-        <option value="$PROJECT_DIR$/GameLibrary/src/app/dashboard/dashboard.component.ts" />
         <option value="$PROJECT_DIR$/GameLibrary/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/GameLibrary/src/index.html" />
-        <option value="$PROJECT_DIR$/GameLibrary/src/app/dashboard/dashboard.component.html" />
         <option value="$PROJECT_DIR$/GameLibrary/src/app/app.component.css" />
         <option value="$PROJECT_DIR$/GameLibrary/src/styles.css" />
         <option value="$PROJECT_DIR$/GameLibrary/src/app/dashboard/dashboard.component.css" />
         <option value="$PROJECT_DIR$/GameLibrary/src/app/game/game.model.ts" />
+        <option value="$PROJECT_DIR$/GameLibrary/src/app/dashboard/dashboard.component.html" />
+        <option value="$PROJECT_DIR$/GameLibrary/src/app/dashboard/dashboard.component.ts" />
         <option value="$PROJECT_DIR$/GameLibrary/src/app/game/game.service.ts" />
       </list>
     </option>
@@ -177,9 +161,9 @@
     <handled-path value="$PROJECT_DIR$/GameLibrary/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
+    <option name="x" value="1919" />
     <option name="width" value="1922" />
-    <option name="height" value="1056" />
+    <option name="height" value="1081" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -471,15 +455,15 @@
       <updated>1497694832548</updated>
       <workItem from="1497694833727" duration="2408000" />
       <workItem from="1497706514339" duration="5607000" />
-      <workItem from="1497779548544" duration="898000" />
+      <workItem from="1497779548544" duration="2004000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8913000" />
+    <option name="totallyTimeSpent" value="10019000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1922" height="1056" extended-state="6" />
+    <frame x="1919" y="0" width="1922" height="1081" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -681,6 +665,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -714,28 +701,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GameLibrary/src/app/dashboard/dashboard.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="65" lean-forward="false" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GameLibrary/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="37" lean-forward="false" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GameLibrary/src/app/dashboard/dashboard.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="51" lean-forward="false" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
           <folding />
         </state>
       </provider>
@@ -755,10 +724,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GameLibrary/src/styles.css">
+    <entry file="file://$PROJECT_DIR$/GameLibrary/src/app/game/game.service.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameLibrary/src/app/game/game.model.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -771,28 +750,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GameLibrary/src/app/game/game.model.ts">
+    <entry file="file://$PROJECT_DIR$/GameLibrary/src/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GameLibrary/src/app/game/game.service.spec.ts">
+    <entry file="file://$PROJECT_DIR$/GameLibrary/src/app/dashboard/dashboard.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="15">
+          <caret line="1" column="29" lean-forward="false" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameLibrary/src/app/dashboard/dashboard.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
           <folding>
-            <element signature="e#0#56#0" expanded="true" />
+            <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GameLibrary/src/app/game/game.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="133" lean-forward="false" selection-start-line="6" selection-start-column="133" selection-end-line="6" selection-end-column="133" />
+        <state relative-caret-position="165">
+          <caret line="11" column="179" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="179" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
