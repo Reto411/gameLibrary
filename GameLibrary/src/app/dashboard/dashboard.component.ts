@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Game } from '../game/game.model';
-import { GameService } from '../game/game.service';
+import { Game } from '../shared/models/game.model';
+import { GameService } from '../shared/services/game.service';
 
 @Component({
   selector: 'app-dashboard',
@@ -16,7 +16,4 @@ export class DashboardComponent implements OnInit {
     this.gameService.getGames().then(games => this.games = games);
   }
 
-  dashboardImageForGame(): Image {
-    return this.ima
-  }
 }
