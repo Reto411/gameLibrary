@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { Game } from '../shared/models/game.model';
 import { GameService } from '../shared/services/game.service';
 import {ActivatedRoute, Router} from '@angular/router';
@@ -10,18 +10,12 @@ import {ActivatedRoute, Router} from '@angular/router';
 })
 export class DetailComponent implements OnInit {
   games: Game[] = [];
-  private gameId:number;
+
+  @Input()
   public game: Game = null;
 
   constructor(private gameService: GameService, private route: ActivatedRoute) { }
 
   ngOnInit(): void {
-    this.route.params.subscribe(params => {
-        this.gameId = +params['id']; // (+) converts string 'id' to a number
-    });
-
-    this.gameService.getGame(this.gameId).subscribe(
-      game => this.game = game ,
-      err => console.error(err));
   }
 }

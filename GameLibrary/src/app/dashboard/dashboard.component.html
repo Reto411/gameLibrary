@@ -1,7 +1,8 @@
+<app-game-detail [game]="selectedGame"></app-game-detail>
 <div class="row">
   <div *ngFor="let game of games" class="col-lg-3 col-md-4 col-sm-6 col-xs-12 game-row">
     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
-    <div [routerLink]="['/gamedetail', game.id]" class="col-lg-10 col-md-10 col-sm-10 col-xs-10 game-box" [style.background-image]="'url(' + game.dashboardPicture?.path + ')'">
+    <div (click)="selectGame(game)" class="col-lg-10 col-md-10 col-sm-10 col-xs-10 game-box" [style.background-image]="'url(' + game.dashboardPicture?.path + ')'">
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 game-box-text-box">
         <h5 class="game-box-title">{{ game.name }}</h5>
       </div>

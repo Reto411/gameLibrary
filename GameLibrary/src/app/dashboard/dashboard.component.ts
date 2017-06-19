@@ -8,11 +8,16 @@ import { GameService } from '../shared/services/game.service';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent implements OnInit {
-  games: Game[] = [];
+  public games: Game[] = [];
+  public selectedGame: Game = null;
 
   constructor(private gameService: GameService) { }
 
   ngOnInit(): void {
     this.gameService.getGames().subscribe(games => this.games = games);
   }
+
+  public selectGame(game: Game) {
+    this.selectedGame = game;
+  };
 }
