@@ -1,5 +1,9 @@
-<div *ngIf="game != null" >
-    <div class="arrowLeft" (click)="changePicture('left')"><i class="fa fa-arrow-left" width="50" height="50" aria-hidden="true"></i></div>
-    <div *ngIf="game.pictures != null"><img src="{{game?.pictures[currentPicturePosition]}}" class="img-responsive"><div>
-    <div class="arrowRight" (click)="changePicture('right')"><i class="fa fa-arrow-right"  width="50" height="50" aria-hidden="true"></i></div>
+<div class="container-fluid">
+  <div class="row" *ngIf="game != null" >
+      <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1" (click)="changePicture('left')"><i class="fa fa-angle-left fa-3x arrowLeft" aria-hidden="true"></i></div>
+      <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+        <img *ngIf="game.pictures != null"  src="{{game?.pictures[currentPicturePosition]}}" class="img-responsive">
+      </div>
+      <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1" (click)="changePicture('right')"><i class="fa fa-angle-right fa-3x arrowRight" aria-hidden="true"></i></div>
+  </div>
 </div>

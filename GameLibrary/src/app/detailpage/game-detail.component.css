@@ -1,7 +1,3 @@
-.arrowRight {
-
-}
-
-.arrowLeft {
-    
+.arrowRight, .arrowLeft {
+  margin-top: 50%;
 }
