@@ -16,4 +16,8 @@ export class GameService {
   getGames(): Observable<Game[]> {
     return this.http.get("assets/games/static.game.data.json").map(res => res.json());
   }
+
+  getGame(id: number): Observable<Game> {
+    return this.http.get("assets/games/static.game.data.json").map(res => res.json().find(res => res.id == id));
+  }
 }

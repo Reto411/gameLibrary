@@ -20,11 +20,8 @@ export class DetailComponent implements OnInit {
         this.gameId = +params['id']; // (+) converts string 'id' to a number
     });
 
-    this.gameService.getGames().subscribe(
-        data => {
-            this.game = data.find(r => r.id == this.gameId);
-        },
-        err => console.error(err)
-        );
+    this.gameService.getGame(this.gameId).subscribe(
+      game => this.game = game ,
+      err => console.error(err));
   }
 }
