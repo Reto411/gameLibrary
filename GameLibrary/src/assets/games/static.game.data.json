@@ -7,15 +7,15 @@
     "id": 2,
     "name": "League of Legends",
     "dashboardPicture": {
-      "path": "assets/games/leagueoflegends/images/PNG_00b235ea_55b4_43db_aad3_75bad274a1f8",
+      "path": "assets/games/leagueoflegends/images/JPG_00b235ea_55b4_43db_aad3_75bad274a1f8",
       "alternativeText": "Hello"
     },
     "pictures": [
-      "assets/games/leagueoflegends/images/PNG_00b235ea_55b4_43db_aad3_75bad274a1f8",
-      "assets/games/leagueoflegends/images/BMP_9043370b_240d_4978_938c_dae0f",
-      "assets/games/leagueoflegends/images/BMP_a21226dd_68ea_45db_aae8_4dddbefb6efe",
-      "assets/games/leagueoflegends/images/PNG_8985bf43_35ee_423e_be83_72504fe9be2c",
-      "assets/games/leagueoflegends/images/PNG_bc1c1053_3968_45dc_9a07_0fd36a13dc56"
+      "assets/games/leagueoflegends/images/JPG_00b235ea_55b4_43db_aad3_75bad274a1f8",
+      "assets/games/leagueoflegends/images/JPG_74c32eb8_9ba0_42c7_bd04_124bb68a3c86",
+      "assets/games/leagueoflegends/images/JPG_8985bf43_35ee_423e_be83_72504fe9be2c",
+      "assets/games/leagueoflegends/images/JPG_a21226dd_68ea_45db_aae8_4dddbefb6efe",
+      "assets/games/leagueoflegends/images/JPG_bc1c1053_3968_45dc_9a07_0fd36a13dc56"
     ]
   },
   {
