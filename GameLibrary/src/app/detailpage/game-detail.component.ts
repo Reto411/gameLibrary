@@ -9,7 +9,8 @@ import {ActivatedRoute, Router} from '@angular/router';
   styleUrls: ['./game-detail.component.css']
 })
 export class DetailComponent implements OnInit {
-  games: Game[] = [];
+  public games: Game[] = [];
+  public currentPicturePosition = 0;
 
   @Input()
   public game: Game = null;
@@ -17,5 +18,17 @@ export class DetailComponent implements OnInit {
   constructor(private gameService: GameService, private route: ActivatedRoute) { }
 
   ngOnInit(): void {
+  }
+
+  public changePicture(direction: string) {
+    if (direction === 'left') {
+      if (this.currentPicturePosition != null) {
+        this.currentPicturePosition--;
+      }
+    } else if (direction === 'right') {
+      if ((this.currentPicturePosition - 1) !== this.game.pictures.length) {
+        this.currentPicturePosition++;
+      }
+    }
   }
 }
