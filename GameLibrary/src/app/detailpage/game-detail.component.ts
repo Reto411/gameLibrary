@@ -25,12 +25,10 @@ export class DetailComponent implements OnInit {
       if (this.currentPicturePosition !== 0) {
         this.currentPicturePosition--;
       } else {
-        this.currentPicturePosition = (this.game.pictures.length - 1);
+        this.currentPicturePosition = (this.game.media.length - 1);
       }
     } else if (direction === 'right') {
-      console.log(this.game.pictures.length);
-      console.log(this.currentPicturePosition);
-      if ((this.currentPicturePosition + 1) !== this.game.pictures.length) {
+      if ((this.currentPicturePosition + 1) !== this.game.media.length) {
         this.currentPicturePosition++;
       } else {
         this.currentPicturePosition = 0;

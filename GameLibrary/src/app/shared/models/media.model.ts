@@ -1,5 +1,4 @@
-
-export class Picture {
+export class Media {
   path: string;
   alternativeText: string;
 }
