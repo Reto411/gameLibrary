@@ -4,4 +4,5 @@ export class Game {
   id: number;
   name: string;
   dashboardPicture: Picture;
+  pictures: Array<Picture>;
 }
