@@ -22,12 +22,18 @@ export class DetailComponent implements OnInit {
 
   public changePicture(direction: string) {
     if (direction === 'left') {
-      if (this.currentPicturePosition != null) {
+      if (this.currentPicturePosition !== 0) {
         this.currentPicturePosition--;
+      } else {
+        this.currentPicturePosition = (this.game.pictures.length - 1);
       }
     } else if (direction === 'right') {
-      if ((this.currentPicturePosition - 1) !== this.game.pictures.length) {
+      console.log(this.game.pictures.length);
+      console.log(this.currentPicturePosition);
+      if ((this.currentPicturePosition + 1) !== this.game.pictures.length) {
         this.currentPicturePosition++;
+      } else {
+        this.currentPicturePosition = 0;
       }
     }
   }
