@@ -27,8 +27,8 @@
 
 .game-box-text-box
 {
-  margin-top: 25%;
-  margin-bottom: 25%;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
   border-radius: 0.5vw;
   background-color: rgba(255, 255, 255, 0.50);
 }
