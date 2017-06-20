@@ -6,3 +6,15 @@
 nav {
   margin-bottom: 0px !important;
 }
+
+.navbar-header img {
+  float: left;
+  width: 60px;
+  height: 50px;
+}
+
+.navbar-header h1 {
+  position: relative;
+  margin-top: 50%;
+  padding-left: 50px;
+}
