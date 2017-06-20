@@ -1,2 +1,2 @@
 export * from './game.model';
-export * from './picture.model';
+export * from './media.model';
