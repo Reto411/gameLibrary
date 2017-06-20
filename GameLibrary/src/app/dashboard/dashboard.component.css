@@ -16,6 +16,10 @@
   box-shadow: 10px 11px 32px -4px rgba(0,0,0,0.54);
 }
 
+.game-box:hover {
+  box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.35);
+}
+
 .game-row
 {
   margin-bottom: 2vh;
@@ -23,8 +27,8 @@
 
 .game-box-text-box
 {
-  margin-top: 25%;
-  margin-bottom: 25%;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
   border-radius: 0.5vw;
   background-color: rgba(255, 255, 255, 0.50);
 }
