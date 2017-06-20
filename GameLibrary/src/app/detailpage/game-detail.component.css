@@ -1,3 +1,13 @@
+.media-box {
+  min-height: 30vh;
+  text-align: center;
+}
+
 .arrowRight, .arrowLeft {
   margin-top: 50%;
+}
+
+.arrowLeft-box, .arrowRight-box {
+  height:100%;
+  width:100%;
 }
