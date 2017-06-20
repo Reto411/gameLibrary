@@ -1,7 +1,9 @@
-<div class="row" *ngIf="game != null" >
-    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
-      <div *ngIf="game.media?.length > 1" class="arrowLeft-box" (click)="changePicture('left')">
-        <i class="fa fa-angle-left fa-3x arrowLeft" aria-hidden="true"></i>
+<div class="row media-row" *ngIf="game != null" >
+    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 arrow-box">
+      <div *ngIf="game.media?.length > 1" class="arrow-box-vertical-alignment" (click)="changePicture('left')">
+        <div class="arrow-box-horizontal-alignment">
+          <i class="fa fa-angle-left fa-3x" aria-hidden="true"></i>
+        </div>
       </div>
     </div>
 
@@ -11,9 +13,11 @@
       <h3 *ngIf="game.media == null" >No Medias found for game</h3>
     </div>
 
-    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1" >
-        <div *ngIf="game.media?.length > 1" class="arrowRight-box" (click)="changePicture('right')">
-          <i class="fa fa-angle-right fa-3x arrowRight" aria-hidden="true"></i>
+    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 arrow-box" >
+        <div *ngIf="game.media?.length > 1" class="arrow-box-vertical-alignment" (click)="changePicture('right')">
+          <div class="arrow-box-horizontal-alignment">
+            <i class="fa fa-angle-right fa-3x" aria-hidden="true"></i>
+          </div>
         </div>
       </div>
 </div>
