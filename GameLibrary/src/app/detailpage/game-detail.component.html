@@ -1,4 +1,5 @@
 <div class="row media-row" *ngIf="game != null" >
+  <div clas="media-wrapper">
     <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 arrow-box">
       <div *ngIf="game.media?.length > 1" class="arrow-box-vertical-alignment" (click)="changePicture('left')">
         <div class="arrow-box-horizontal-alignment">
@@ -7,9 +8,9 @@
       </div>
     </div>
 
-  <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 media-box">
+    <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 media-box">
       <img *ngIf="game.media != null && game.media[currentPicturePosition].includes('JPG')"  src="{{game?.media[currentPicturePosition]}}" class="img-responsive">
-      <video *ngIf="game.media != null && game.media[currentPicturePosition].includes('WEBM')" src="{{game?.media[currentPicturePosition]}}" controls></video>
+      <video *ngIf="game.media != null && game.media[currentPicturePosition].includes('WEBM')" src="{{game?.media[currentPicturePosition]}}" class="img-responsive" controls></video>
       <h3 *ngIf="game.media == null" >No Medias found for game</h3>
     </div>
 
@@ -19,5 +20,6 @@
             <i class="fa fa-angle-right fa-3x" aria-hidden="true"></i>
           </div>
         </div>
-      </div>
+    </div>
+  </div>
 </div>

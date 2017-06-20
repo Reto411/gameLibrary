@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ee9bb10-4cb6-4400-a4d1-838737e6557d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameLibrary/src/app/dashboard/dashboard.component.css" afterPath="$PROJECT_DIR$/GameLibrary/src/app/dashboard/dashboard.component.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameLibrary/src/app/detailpage/game-detail.component.css" afterPath="$PROJECT_DIR$/GameLibrary/src/app/detailpage/game-detail.component.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameLibrary/src/app/detailpage/game-detail.component.html" afterPath="$PROJECT_DIR$/GameLibrary/src/app/detailpage/game-detail.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameLibrary/src/index.html" afterPath="$PROJECT_DIR$/GameLibrary/src/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,8 +23,8 @@
       <file leaf-file-name="game-detail.component.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GameLibrary/src/app/detailpage/game-detail.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="46" lean-forward="false" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+            <state relative-caret-position="180">
+              <caret line="12" column="162" lean-forward="false" selection-start-line="12" selection-start-column="162" selection-end-line="12" selection-end-column="162" />
               <folding />
             </state>
           </provider>
@@ -33,8 +33,18 @@
       <file leaf-file-name="game-detail.component.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GameLibrary/src/app/detailpage/game-detail.component.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="29" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="29" />
+            <state relative-caret-position="60">
+              <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dashboard.component.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GameLibrary/src/app/dashboard/dashboard.component.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="58" lean-forward="false" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -56,6 +66,7 @@
       <find>margin</find>
       <find>&gt;</find>
       <find>col-</find>
+      <find>game-box-brighten-up</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -87,8 +98,8 @@
         <option value="$PROJECT_DIR$/GameLibrary/src/styles.css" />
         <option value="$PROJECT_DIR$/GameLibrary/src/app/dashboard/dashboard.component.html" />
         <option value="$PROJECT_DIR$/GameLibrary/src/animations.css" />
-        <option value="$PROJECT_DIR$/GameLibrary/src/app/dashboard/dashboard.component.css" />
         <option value="$PROJECT_DIR$/GameLibrary/src/index.html" />
+        <option value="$PROJECT_DIR$/GameLibrary/src/app/dashboard/dashboard.component.css" />
         <option value="$PROJECT_DIR$/GameLibrary/src/app/detailpage/game-detail.component.css" />
         <option value="$PROJECT_DIR$/GameLibrary/src/app/detailpage/game-detail.component.html" />
       </list>
@@ -363,7 +374,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40374000" />
+    <option name="totallyTimeSpent" value="44263000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1919" y="0" width="1922" height="1081" extended-state="6" />
@@ -759,24 +770,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GameLibrary/src/app/dashboard/dashboard.component.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        <state relative-caret-position="285">
+          <caret line="19" column="58" lean-forward="false" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GameLibrary/src/app/detailpage/game-detail.component.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="29" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="29" />
+        <state relative-caret-position="60">
+          <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GameLibrary/src/app/detailpage/game-detail.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="46" lean-forward="false" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+        <state relative-caret-position="180">
+          <caret line="12" column="162" lean-forward="false" selection-start-line="12" selection-start-column="162" selection-end-line="12" selection-end-column="162" />
           <folding />
         </state>
       </provider>
