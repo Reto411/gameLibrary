@@ -1,21 +1,19 @@
-<div class="container-fluid">
-  <div class="row" *ngIf="game != null" >
-      <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
-        <div *ngIf="game.media?.length > 1" class="arrowLeft-box" (click)="changePicture('left')">
-          <i class="fa fa-angle-left fa-3x arrowLeft" aria-hidden="true"></i>
+<div class="row" *ngIf="game != null" >
+    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+      <div *ngIf="game.media?.length > 1" class="arrowLeft-box" (click)="changePicture('left')">
+        <i class="fa fa-angle-left fa-3x arrowLeft" aria-hidden="true"></i>
+      </div>
+    </div>
+
+  <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 media-box">
+      <img *ngIf="game.media != null && game.media[currentPicturePosition].includes('JPG')"  src="{{game?.media[currentPicturePosition]}}" class="img-responsive">
+      <video *ngIf="game.media != null && game.media[currentPicturePosition].includes('WEBM')" src="{{game?.media[currentPicturePosition]}}" controls></video>
+      <h3 *ngIf="game.media == null" >No Medias found for game</h3>
+    </div>
+
+    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1" >
+        <div *ngIf="game.media?.length > 1" class="arrowRight-box" (click)="changePicture('right')">
+          <i class="fa fa-angle-right fa-3x arrowRight" aria-hidden="true"></i>
         </div>
       </div>
-
-    <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 media-box">
-        <img *ngIf="game.media != null && game.media[currentPicturePosition].includes('JPG')"  src="{{game?.media[currentPicturePosition]}}" class="img-responsive">
-        <video *ngIf="game.media != null && game.media[currentPicturePosition].includes('WEBM')" src="{{game?.media[currentPicturePosition]}}" controls></video>
-        <h3 *ngIf="game.media == null" >No Medias found for game</h3>
-      </div>
-
-      <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1" >
-          <div *ngIf="game.media?.length > 1" class="arrowRight-box" (click)="changePicture('right')">
-            <i class="fa fa-angle-right fa-3x arrowRight" aria-hidden="true"></i>
-          </div>
-        </div>
-  </div>
 </div>
