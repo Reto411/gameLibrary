@@ -6,12 +6,14 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { DetailComponent } from './detailpage/game-detail.component';
 import {AppRoutingModule} from "./app-routing/app-routing.module";
 import {HttpModule} from "@angular/http";
+import { ImpressumComponent } from './impressum/impressum.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
-    DetailComponent
+    DetailComponent,
+    ImpressumComponent
   ],
   imports: [
     BrowserModule,
