@@ -51,6 +51,19 @@
   text-align: center;
 }
 
+.arrow-right:hover {
+  -webkit-box-shadow: inset 168px -43px 61px -186px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 168px -43px 61px -186px rgba(0,0,0,0.75);
+  box-shadow: inset 168px -43px 61px -186px rgba(0,0,0,0.75);
+}
+
+.arrow-left:hover {
+  -webkit-box-shadow: inset -168px -43px 61px -186px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset -168px -43px 61px -186px rgba(0,0,0,0.75);
+  box-shadow: inset -168px -43px 61px -186px rgba(0,0,0,0.75);
+}
+
+/*  */
 @keyframes fade-in {
   0% {
     opacity: 0;
