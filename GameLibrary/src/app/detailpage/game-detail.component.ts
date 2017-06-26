@@ -1,6 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Game, GameService } from '../shared';
-;
 import {ActivatedRoute, Router} from '@angular/router';
 
 @Component({

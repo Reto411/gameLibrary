@@ -17,7 +17,7 @@
 }
 
 .game-box:hover {
-  animation: game-box-brighten-up 1.5s ease 0s 1 forwards;
+  animation: game-box-brighten-up 1.2s ease 0s 1 forwards;
 }
 
 .game-row
