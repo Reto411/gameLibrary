@@ -17,12 +17,12 @@
 }
 
 .game-box:hover {
-  box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.35);
+  animation: game-box-brighten-up 1.5s ease 0s 1 forwards;
 }
 
 .game-row
 {
-  margin-bottom: 2vh;
+  margin-top: 2vh;
 }
 
 .game-box-text-box
@@ -36,4 +36,18 @@
 .game-box-title {
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
+}
+
+
+/* animations */
+
+@keyframes game-box-brighten-up {
+  0% {
+    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.0),
+                          10px 11px 32px -4px rgba(0,0,0,0.54);
+  }
+  100% {
+    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.5),
+    10px 11px 32px -4px rgba(0,0,0,0.54);
+  }
 }

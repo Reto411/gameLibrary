@@ -29,7 +29,18 @@
   },
   {
     "id": 5,
-    "name": "Stardew Valley"
+    "name": "Stardew Valley",
+    "dashboardPicture": {
+      "path": "assets/games/stardewvalley/JPG_74c64a91_b6aa_4903_87b0_7bb3308c8a2e",
+      "alternativeText": "Title Screen of Stardew Valley"
+    },
+    "media": [
+      "assets/games/stardewvalley/JPG_01c82dab_3945_4b5d_97ae_a513710ce6f0",
+      "assets/games/stardewvalley/JPG_040b4e7b_ed56_4a95_9f77_8184d9695aa3",
+      "assets/games/stardewvalley/JPG_5d2aa7c1_45a1_4533_82da_dc2f3a946221",
+      "assets/games/stardewvalley/JPG_629a8cf2_ad6e_4d83_93bf_ee24854a8d1d",
+      "assets/games/stardewvalley/JPG_ff7246a0_e70a_4307_9521_9c393bd6a684"
+    ]
   },
   {
     "id": 6,
