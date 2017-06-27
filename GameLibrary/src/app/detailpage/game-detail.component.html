@@ -8,9 +8,9 @@
       </div>
     </div>
 
-    <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 media-box">
+    <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 media-box embed-responsive">
       <img *ngIf="game.media != null && game.media[currentPicturePosition].includes('JPG')"  [src]="game?.media[currentPicturePosition]" class="img-responsive">
-      <iframe *ngIf="game.media != null && game.media[currentPicturePosition].includes('http')" [src]="game?.media[currentPicturePosition] | safe" frameborder="0"></iframe>
+      <iframe *ngIf="game.media != null && game.media[currentPicturePosition].includes('http')" [src]="game?.media[currentPicturePosition] | safe" class="embed-responsive-item"></iframe>
       <h3 *ngIf="game.media == null" >No Medias found for game</h3>
     </div>
 
