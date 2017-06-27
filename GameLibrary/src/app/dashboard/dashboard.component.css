@@ -4,6 +4,7 @@
 
   background-color: lightgray;
   background-size: cover;
+  overflow: hidden;
 
   /* Radius */
   -webkit-border-radius:  0.5vw;
@@ -31,6 +32,7 @@
   margin-bottom: 3vh;
   border-radius: 0.5vw;
   background-color: rgba(255, 255, 255, 0.50);
+  overflow: hidden;
 }
 
 .game-box-title {
