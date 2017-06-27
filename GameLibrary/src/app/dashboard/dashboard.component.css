@@ -38,6 +38,11 @@
   font-weight: bold;
 }
 
+.row {
+  overflow: hidden;
+  clear: both;
+}
+
 
 /* animations */
 
