@@ -3,7 +3,15 @@
 @import url("../node_modules/bootstrap/dist/css/bootstrap.css");
 @import url("../node_modules/font-awesome/css/font-awesome.min.css");
 
-@import url("./animations.css");
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  font-family: sans-serif;
+}
 
 nav {
   margin-bottom: 0px !important;
@@ -19,4 +27,11 @@ nav {
   position: relative;
   margin-top: 50%;
   padding-left: 50px;
+}
+
+.footer {
+    bottom:0;
+    width: 100%;
+    margin: 0;
+    margin-top:10px; 
 }

@@ -21,7 +21,19 @@
   },
   {
     "id": 3,
-    "name": "Red Orchestra II: Eastern Front"
+    "name": "Red Orchestra II: Eastern Front",
+    "dashboardPicture": {
+      "path": "assets/games/redorchestra2/images/JPG_cfdd517c_1142_4bcc_ad2c_a0f8464085c9",
+      "alternativeText": "Load Screen of Red Orchestra II"
+    },
+    "media": [
+      "assets/games/redorchestra2/images/JPG_cfdd517c_1142_4bcc_ad2c_a0f8464085c9",
+      "assets/games/redorchestra2/images/JPG_a9fbbed4_aa61_4dd6_9074_a8e27abfce6d",
+      "assets/games/redorchestra2/images/JPG_bb2f20ce_792e_4979_b1e9_f83d67bf0823",
+      "assets/games/redorchestra2/images/JPG_c5103bc1_9403_4cc5_8858_2e4ba46269b8",
+      "assets/games/redorchestra2/images/JPG_cd08a792_7549_4bac_b8c0_dac2c9da59e4",
+      "https://www.youtube.com/embed/NWPhVjNK4Hk"
+    ]
   },
   {
     "id": 4,

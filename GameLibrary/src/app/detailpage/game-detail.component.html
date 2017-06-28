@@ -1,25 +1,21 @@
 <div class="row media-row" *ngIf="game != null" >
-  <div clas="media-wrapper">
-    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 arrow-box arrow-left">
-      <div *ngIf="game.media?.length > 1" class="arrow-box-vertical-alignment" (click)="changePicture('left')">
-        <div class="arrow-box-horizontal-alignment">
-          <i class="fa fa-angle-left fa-3x" aria-hidden="true"></i>
-        </div>
+    <div class="col-md-1 col-sm-1 col-xs-1 arrow-box">
+      <div *ngIf="game.media?.length > 1" (click)="changePicture('left')" class="arrow arrow-left">
+        <i class="fa fa-angle-left fa-3x" aria-hidden="true"></i>
       </div>
     </div>
 
-    <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 media-box">
-      <img *ngIf="game.media != null && game.media[currentPicturePosition].includes('JPG')"  [src]="game?.media[currentPicturePosition]" class="img-responsive">
-      <iframe *ngIf="game.media != null && game.media[currentPicturePosition].includes('http')" [src]="game?.media[currentPicturePosition] | safe" frameborder="0"></iframe>
+    <div class="col-md-10 col-sm-10 col-xs-10 media-box ">
+      <img *ngIf="game.media != null && game.media[currentPicturePosition].includes('JPG')" style="width: 100%; height: auto;"  [src]="game?.media[currentPicturePosition]" class="img-responsive">
+      <div *ngIf="game.media != null && game.media[currentPicturePosition].includes('http')" class="embed-responsive embed-responsive-16by9">
+        <iframe [src]="game?.media[currentPicturePosition] | safe" class="embed-responsive-item" frameborder="0" scrolling="no"></iframe>
+      </div>
       <h3 *ngIf="game.media == null" >No Medias found for game</h3>
     </div>
 
-    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 arrow-box arrow-right" >
-        <div *ngIf="game.media?.length > 1" class="arrow-box-vertical-alignment" (click)="changePicture('right')">
-          <div class="arrow-box-horizontal-alignment">
+    <div class="col-md-1 col-sm-1 col-xs-1 arrow-box">
+          <div  *ngIf="game.media?.length > 1" (click)="changePicture('right')" class="arrow arrow-right">
             <i class="fa fa-angle-right fa-3x" aria-hidden="true"></i>
           </div>
-        </div>
     </div>
-  </div>
 </div>

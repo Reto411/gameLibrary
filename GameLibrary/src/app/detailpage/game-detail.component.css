@@ -1,10 +1,7 @@
 .media-row {
   position: relative;
-  overflow: hidden;
 
-  animation: pull-in-height 1.5s ease 0s alternate,
-              fade-in 1.5s ease 0s alternate;
-
+  height:auto;
   padding-top: 2vh;
   padding-bottom: 2vh;
   margin-bottom: 2vh;
@@ -17,38 +14,27 @@
 /* Overwrite css class */
 .img-responsive {
   height: inherit;
-  margin-left: auto;
-  margin-right: auto;
   display: block;
   width: auto;
-}
-
-.media-column {
-  height: 68vh;
 }
 
 .media-box {
   border-right: 3px lightgray groove;
   border-left: 3px lightgray groove ;
-  height: 68vh;
-  text-align: center;
-}
-
-.arrow-box-vertical-alignment  {
-  position: relative;
-  display: table-cell;
-  vertical-align: middle;
-  width: auto;
+  height: 100%;
 }
 
 .arrow-box {
-  display: table;
+  margin-top: 21%;
   position: relative;
-  height: 68vh;
 }
 
-.arrow-box-horizontal-alignment {
-  text-align: center;
+.arrow {
+  position: absolute;
+  margin: auto;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
 }
 
 .arrow-right:hover {
@@ -73,13 +59,5 @@
   }
 }
 
-@keyframes pull-in-height {
-  0% {
-    height: 0vh;
-  }
-  100% {
-    height: 72vh;
-  }
-}
 
 
