@@ -15,17 +15,21 @@ body {
 
 nav {
   margin-bottom: 0px !important;
+  height: 3vh !important;
+}
+
+.navbar-header {
+  height: 100%;
+  padding-left: 2vw;
 }
 
 .navbar-header img {
   float: left;
-  width: 50px;
-  height: 50px;
+  height: inherit;
 }
 
-.navbar-header h1 {
+.navbar-header a {
   position: relative;
-  margin-top: 50%;
   padding-left: 50px;
 }
 
@@ -33,5 +37,5 @@ nav {
     bottom:0;
     width: 100%;
     margin: 0;
-    margin-top:10px; 
+    margin-top:2vh;
 }
