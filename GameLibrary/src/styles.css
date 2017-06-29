@@ -12,30 +12,3 @@ body {
   min-height: 100%;
   font-family: sans-serif;
 }
-
-nav {
-  margin-bottom: 0px !important;
-  height: 3vh !important;
-}
-
-.navbar-header {
-  height: 100%;
-  padding-left: 2vw;
-}
-
-.navbar-header img {
-  float: left;
-  height: inherit;
-}
-
-.navbar-header a {
-  position: relative;
-  padding-left: 50px;
-}
-
-.footer {
-    bottom:0;
-    width: 100%;
-    margin: 0;
-    margin-top:2vh;
-}

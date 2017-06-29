@@ -1,7 +1,6 @@
 .game-box
 {
-  min-height: 100vh;
-
+  height: 12vw;
   background-color: lightgray;
   background-size: cover;
   overflow: hidden;
@@ -43,7 +42,8 @@
 .row {
   overflow: hidden;
   clear: both;
-  padding: 28px;
+  margin: 0;
+  padding: 3vh 2vw;
 }
 
 

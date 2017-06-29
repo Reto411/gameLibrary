@@ -1,19 +1,17 @@
-<div class="content">
-  <div class="container-fluid">
-     <nav class="navbar navbar-default navbar-static-top header" >
-        <div class="navbar-header pull-left">
-            <img src="assets/images/818c1b6c-dfd0-4171-b319-09fd03f01c3d.png">
-            <a style="padding-left: 30px; font-family: atc ripley; color:lightgrey;" class="navbar-brand" routerLink="" routerLinkActive="active">G4M3L1BR4RY - A list of fantastic games</a>
-        </div>
-      </nav>
-      <div style="padding: 15px;">
-        <router-outlet></router-outlet>
+<div class="container-fluid">
+   <nav class="navbar navbar-default navbar-static-top header" >
+      <div class="navbar-header pull-left">
+          <img class="pull-left" src="assets/images/818c1b6c-dfd0-4171-b319-09fd03f01c3d.png">
+          <a class="header-text navbar-brand" routerLink="" routerLinkActive="active">G4M3L1BR4RY - A list of fantastic games</a>
       </div>
-  </div>
-  <div class="footer navbar-default navbar" style="background-color: #1a2930;">
-    <div style="padding-left: 10px;">
-      <a routerLink="/impressum" routerLinkActive="active" class="navbar-text pull-left"><i class="fa fa-info-circle" aria-hidden="true"></i> Impressum</a>
+    </nav>
+    <div class="content">
+      <router-outlet></router-outlet>
     </div>
+</div>
+<div class="footer navbar-default navbar">
+  <div style="padding-left: 10px;">
+    <a routerLink="/impressum" routerLinkActive="active" class="navbar-text pull-left"><i class="fa fa-info-circle" aria-hidden="true"></i> Impressum</a>
   </div>
 </div>
 
