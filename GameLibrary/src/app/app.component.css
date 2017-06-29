@@ -24,11 +24,7 @@
 }
 
 .footer {
-    -webkit-box-ordinal-group: 2;   /* OLD - iOS 6-, Safari 3.1-6 */
-    -moz-box-ordinal-group: 2;      /* OLD - Firefox 19- */
-    -ms-flex-order: 2;              /* TWEENER - IE 10 */
-    -webkit-order: 2;               /* NEW - Chrome */
-    order: 2;                       /* NEW, Spec - Opera 12.1, Firefox 20+ */
+
     height: 5vh;
     margin: 0;
     overflow: hidden;
@@ -55,8 +51,7 @@ nav {
 
 .navbar-header a {
   position: relative;
-  font-size: 3vh;
-  font-weight: bold;
+  font-size: 2vw;
   padding-left: 2vw;
 }
 

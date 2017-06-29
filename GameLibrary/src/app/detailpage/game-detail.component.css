@@ -1,5 +1,4 @@
 .media-row {
-  width: 100vw;
   position: relative;
   height: auto;
   padding-top: 2vh;
@@ -18,7 +17,6 @@
 }
 
 .media-box {
-  overflow: hidden;
   height: 100%;
 }
 
