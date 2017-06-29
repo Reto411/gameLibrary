@@ -1,10 +1,6 @@
 [
   {
     "id": 1,
-    "name": "Crusader Kings II"
-  },
-  {
-    "id": 2,
     "name": "League of Legends",
     "dashboardPicture": {
       "path": "assets/games/leagueoflegends/images/JPG_00b235ea_55b4_43db_aad3_75bad274a1f8",
@@ -20,7 +16,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 2,
     "name": "Red Orchestra II: Eastern Front",
     "dashboardPicture": {
       "path": "assets/games/redorchestra2/images/JPG_cfdd517c_1142_4bcc_ad2c_a0f8464085c9",
@@ -36,17 +32,14 @@
     ]
   },
   {
-    "id": 4,
-    "name": "PLAYERSUNKNOWNS BATTLEGROUND"
-  },
-  {
-    "id": 5,
+    "id": 3,
     "name": "Stardew Valley",
     "dashboardPicture": {
       "path": "assets/games/stardewvalley/JPG_74c64a91_b6aa_4903_87b0_7bb3308c8a2e",
       "alternativeText": "Title Screen of Stardew Valley"
     },
     "media": [
+      "assets/games/stardewvalley/JPG_74c64a91_b6aa_4903_87b0_7bb3308c8a2e",
       "assets/games/stardewvalley/JPG_01c82dab_3945_4b5d_97ae_a513710ce6f0",
       "assets/games/stardewvalley/JPG_040b4e7b_ed56_4a95_9f77_8184d9695aa3",
       "assets/games/stardewvalley/JPG_5d2aa7c1_45a1_4533_82da_dc2f3a946221",
@@ -55,7 +48,18 @@
     ]
   },
   {
-    "id": 6,
-    "name": "The Witcher 3: Wild Hunt"
+    "id": 4,
+    "name": "The Witcher 3: Wild Hunt",
+    "dashboardPicture": {
+      "path": "assets/games/thewitcher3/JPG_a6994e85_01a6_4371_9323_9ba007bb7edb",
+      "alternativeText": "Title Screen of The Witcher 3: Wild Hunt"
+    },
+    "media": [
+      "assets/games/thewitcher3/JPG_1e580ac2_8147_4f39_a883_699460195e5f",
+      "assets/games/thewitcher3/JPG_92e46d11_3f8d_410a_88a5_d1077fa21ad6",
+      "assets/games/thewitcher3/JPG_9999314c_cf37_4e05_97ef_9e17916291bd",
+      "assets/games/thewitcher3/JPG_a6994e85_01a6_4371_9323_9ba007bb7edb",
+      "assets/games/thewitcher3/JPG_d6b222c5_8411_40ce_b946_954118663668"
+    ]
   }
 ]
