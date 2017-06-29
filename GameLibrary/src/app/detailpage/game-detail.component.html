@@ -1,4 +1,4 @@
-<div class="row media-row" *ngIf="game != null" >
+<div *ngIf="game != null" >
     <div class="col-md-1 col-sm-1 col-xs-1 arrow-box">
       <div *ngIf="game.media?.length > 1" (click)="changePicture('left')" class="arrow arrow-left">
         <i class="fa fa-angle-left fa-3x" aria-hidden="true"></i>
@@ -7,8 +7,8 @@
 
     <div class="col-md-10 col-sm-10 col-xs-10 media-box ">
       <img *ngIf="game.media != null && game.media[currentPicturePosition].includes('JPG')" style="width: 100%; height: auto;"  [src]="game?.media[currentPicturePosition]" class="img-responsive">
-      <div style="margin: 0; padding: 0;" *ngIf="game.media != null && game.media[currentPicturePosition].includes('http')" class="embed-responsive embed-responsive-16by9">
-        <iframe [src]="game?.media[currentPicturePosition] | safe" class="embed-responsive-item" frameborder="0" scrolling="no"></iframe>
+      <div style="margin: 0; padding: 0;" *ngIf="game.media != null && game.media[currentPicturePosition].includes('http')">
+        <iframe [src]="game?.media[currentPicturePosition] | safe" frameborder="0" scrolling="no" class="responsive-video"></iframe>
       </div>
       <h3 *ngIf="game.media == null" >No Medias found for game</h3>
     </div>
