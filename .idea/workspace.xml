@@ -4,9 +4,9 @@
     <list default="true" id="7ee9bb10-4cb6-4400-a4d1-838737e6557d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameLibrary/src/app/app.component.css" afterPath="$PROJECT_DIR$/GameLibrary/src/app/app.component.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameLibrary/src/app/app.component.html" afterPath="$PROJECT_DIR$/GameLibrary/src/app/app.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameLibrary/src/app/dashboard/dashboard.component.css" afterPath="$PROJECT_DIR$/GameLibrary/src/app/dashboard/dashboard.component.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameLibrary/src/styles.css" afterPath="$PROJECT_DIR$/GameLibrary/src/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameLibrary/src/app/detailpage/game-detail.component.css" afterPath="$PROJECT_DIR$/GameLibrary/src/app/detailpage/game-detail.component.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameLibrary/src/app/detailpage/game-detail.component.html" afterPath="$PROJECT_DIR$/GameLibrary/src/app/detailpage/game-detail.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameLibrary/src/index.html" afterPath="$PROJECT_DIR$/GameLibrary/src/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,9 +24,11 @@
       <file leaf-file-name="game-detail.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GameLibrary/src/app/detailpage/game-detail.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-              <folding />
+            <state relative-caret-position="315">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -41,21 +43,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="game-detail.component.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="game-detail.component.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GameLibrary/src/app/detailpage/game-detail.component.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="826">
-              <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+            <state relative-caret-position="515">
+              <caret line="43" column="7" lean-forward="false" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dashboard.component.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.component.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GameLibrary/src/app/app.component.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dashboard.component.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GameLibrary/src/app/dashboard/dashboard.component.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            <state relative-caret-position="495">
+              <caret line="33" column="19" lean-forward="true" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -74,8 +86,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GameLibrary/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+            <state relative-caret-position="150">
+              <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -84,21 +96,11 @@
       <file leaf-file-name="app.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GameLibrary/src/app/app.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="165">
+              <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.component.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GameLibrary/src/app/app.component.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -131,6 +133,7 @@
       <find>game-box-brighten-up</find>
       <find>margin</find>
       <find>content</find>
+      <find>wid</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -158,14 +161,14 @@
         <option value="$PROJECT_DIR$/GameLibrary/src/app/detailpage/game-detail.component.ts" />
         <option value="$PROJECT_DIR$/GameLibrary/src/app/dashboard/dashboard.component.html" />
         <option value="$PROJECT_DIR$/GameLibrary/src/animations.css" />
+        <option value="$PROJECT_DIR$/GameLibrary/src/assets/games/static.game.data.json" />
+        <option value="$PROJECT_DIR$/GameLibrary/src/styles.css" />
+        <option value="$PROJECT_DIR$/GameLibrary/src/app/dashboard/dashboard.component.css" />
         <option value="$PROJECT_DIR$/GameLibrary/src/index.html" />
+        <option value="$PROJECT_DIR$/GameLibrary/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/GameLibrary/src/app/app.component.css" />
         <option value="$PROJECT_DIR$/GameLibrary/src/app/detailpage/game-detail.component.html" />
         <option value="$PROJECT_DIR$/GameLibrary/src/app/detailpage/game-detail.component.css" />
-        <option value="$PROJECT_DIR$/GameLibrary/src/assets/games/static.game.data.json" />
-        <option value="$PROJECT_DIR$/GameLibrary/src/app/app.component.html" />
-        <option value="$PROJECT_DIR$/GameLibrary/src/styles.css" />
-        <option value="$PROJECT_DIR$/GameLibrary/src/app/app.component.css" />
-        <option value="$PROJECT_DIR$/GameLibrary/src/app/dashboard/dashboard.component.css" />
       </list>
     </option>
   </component>
@@ -263,6 +266,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gameLibrary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gameLibrary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GameLibrary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="detailpage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -410,12 +439,12 @@
       <workItem from="1497862270717" duration="7153000" />
       <workItem from="1498205779922" duration="2203000" />
       <workItem from="1498583368709" duration="245000" />
-      <workItem from="1498755235775" duration="2424000" />
+      <workItem from="1498755235775" duration="3751000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49135000" />
+    <option name="totallyTimeSpent" value="50462000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1919" y="0" width="1922" height="1081" extended-state="6" />
@@ -616,14 +645,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GameLibrary/src/animations.css" />
-    <entry file="file://$PROJECT_DIR$/GameLibrary/src/app/detailpage/game-detail.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GameLibrary/src/assets/games/static.game.data.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="706">
@@ -648,26 +669,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GameLibrary/src/app/detailpage/game-detail.component.css">
+    <entry file="file://$PROJECT_DIR$/GameLibrary/src/app/dashboard/dashboard.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="826">
-          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+        <state relative-caret-position="150">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameLibrary/src/app/dashboard/dashboard.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="19" lean-forward="true" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GameLibrary/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GameLibrary/src/app/dashboard/dashboard.component.html">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -682,8 +703,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GameLibrary/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="165">
+          <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
           </folding>
@@ -692,16 +713,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GameLibrary/src/app/app.component.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        <state relative-caret-position="76">
+          <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GameLibrary/src/app/dashboard/dashboard.component.css">
+    <entry file="file://$PROJECT_DIR$/GameLibrary/src/app/detailpage/game-detail.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GameLibrary/src/app/detailpage/game-detail.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="43" column="7" lean-forward="false" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
           <folding />
         </state>
       </provider>

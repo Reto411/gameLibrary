@@ -1,7 +1,7 @@
 .media-row {
+  width: 100vw;
   position: relative;
-
-  height:auto;
+  height: auto;
   padding-top: 2vh;
   padding-bottom: 2vh;
   margin-bottom: 2vh;
@@ -13,14 +13,12 @@
 
 /* Overwrite css class */
 .img-responsive {
-  height: inherit;
+  height: auto;
   display: block;
-  width: auto;
 }
 
 .media-box {
-  border-right: 3px lightgray groove;
-  border-left: 3px lightgray groove ;
+  overflow: hidden;
   height: 100%;
 }
 
@@ -37,17 +35,19 @@
   transform: translate(-50%, -50%);
 }
 
+.arrow-left:hover {
+  -webkit-box-shadow: inset -168px -43px 61px -186px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset -168px -43px 61px -186px rgba(0,0,0,0.75);
+  box-shadow: inset -168px -43px 61px -186px rgba(0,0,0,0.75);
+}
+
 .arrow-right:hover {
   -webkit-box-shadow: inset 168px -43px 61px -186px rgba(0,0,0,0.75);
   -moz-box-shadow: inset 168px -43px 61px -186px rgba(0,0,0,0.75);
   box-shadow: inset 168px -43px 61px -186px rgba(0,0,0,0.75);
 }
 
-.arrow-left:hover {
-  -webkit-box-shadow: inset -168px -43px 61px -186px rgba(0,0,0,0.75);
-  -moz-box-shadow: inset -168px -43px 61px -186px rgba(0,0,0,0.75);
-  box-shadow: inset -168px -43px 61px -186px rgba(0,0,0,0.75);
-}
+
 
 /*  */
 @keyframes fade-in {
