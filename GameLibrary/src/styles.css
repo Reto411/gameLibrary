@@ -3,6 +3,10 @@
 @import url("../node_modules/bootstrap/dist/css/bootstrap.css");
 @import url("../node_modules/font-awesome/css/font-awesome.min.css");
 
+* {
+  margin: 0;
+  padding: 0;
+}
 
 html {
   height: 100%;
@@ -11,5 +15,5 @@ html {
 body {
   min-height: 100%;
   font-family: sans-serif;
-  background-color: white;
+  background-color: #F1F8E9;
 }

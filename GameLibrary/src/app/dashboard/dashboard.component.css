@@ -1,9 +1,12 @@
 .game-box
 {
-  height: 12vw;
+  min-height: 12vw;
   background-color: lightgray;
   background-size: cover;
   overflow: hidden;
+
+  margin-top: 15px;
+  margin-bottom: 15px;
 
   /* Radius */
   -webkit-border-radius:  0.5vw;
@@ -20,17 +23,13 @@
   animation: game-box-brighten-up 1.2s ease 0s 1 forwards;
 }
 
-.game-row
-{
-  margin-top: 2vh;
-}
-
 .game-box-text-box
 {
   margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-bottom: 5vh;
+
   border-radius: 0.5vw;
-  background-color: rgba(255, 255, 255, 0.50);
+  background-color: #F1F8E9;
   overflow: hidden;
 }
 
@@ -38,14 +37,6 @@
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
 }
-
-.row {
-  overflow: hidden;
-  clear: both;
-  margin: 0;
-  padding: 3vh 2vw;
-}
-
 
 /* animations */
 
