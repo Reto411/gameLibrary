@@ -1,15 +1,11 @@
-.game-box
+.impressum-box
 {
-  height: auto;
+  color: #F1F8E9;
+  background-color: #689F38;
 
-  padding: 5px;
-
-  font-size: 18px;
-
-
-  background-color: lightgray;
-  background-size: cover;
-
+  margin-top: 3vh;
+  margin-bottom: 3vh ;
+  padding: 5vh 2vw;
   /* Radius */
   -webkit-border-radius:  0.5vw;
   -moz-border-radius:  0.5vw;
