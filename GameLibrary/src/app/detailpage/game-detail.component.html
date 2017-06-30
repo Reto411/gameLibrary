@@ -7,7 +7,7 @@
 
     <div class="col-md-10 col-sm-10 col-xs-10 media-box ">
       <img *ngIf="game.media != null && game.media[currentPicturePosition].includes('JPG')" style="width: 100%; height: auto;"  [src]="game?.media[currentPicturePosition]" class="img-responsive">
-      <div style="margin: 0; padding: 0;" *ngIf="game.media != null && game.media[currentPicturePosition].includes('http')">
+      <div *ngIf="game.media != null && game.media[currentPicturePosition].includes('http')">
         <iframe [src]="game?.media[currentPicturePosition] | safe" frameborder="0" scrolling="no" class="responsive-video"></iframe>
       </div>
       <h3 *ngIf="game.media == null" >No Medias found for game</h3>
